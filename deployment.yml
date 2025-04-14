@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web-app
-        image: myusername/myapp:latest
+        image: luandocs/flask-docker-swarm-load-balancing:latest
         ports:
         - containerPort: 5000
         imagePullPolicy: Always
